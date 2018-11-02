@@ -1,0 +1,20 @@
+{
+  "name": "monocycle-state",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "monocycle": "^1.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "ramda": "^0.25.0",
+    "ramda-adjunct": "^2.11.0",
+    "xstream": "^11.7.0"
+  }
+}

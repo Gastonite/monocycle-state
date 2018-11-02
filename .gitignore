@@ -58,4 +58,7 @@ typings/
 .env
 
 # next.js build output
+
+.vscode
+.idea
 .next
