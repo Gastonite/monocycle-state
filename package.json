@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava -v --fail-fast  **/*.spec.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,11 @@
     "ramda": "^0.25.0",
     "ramda-adjunct": "^2.11.0",
     "xstream": "^11.7.0"
+  },
+  "devDependencies": {
+    "@cycle/state": "^1.0.0",
+    "@f/is-functor": "^1.0.0",
+    "ava": "^0.25.0",
+    "cyclejs-test-helpers": "^4.0.0"
   }
 }
