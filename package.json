@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
+    "monocycle": "github:gastonite/monocycle#dev",
     "ramda": "^0.25.0",
     "ramda-adjunct": "^2.11.0",
     "xstream": "^11.7.0"
