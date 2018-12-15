@@ -22,6 +22,7 @@
     "@cycle/state": "^1.0.0",
     "@f/is-functor": "^1.0.0",
     "ava": "^0.25.0",
-    "cyclejs-test-helpers": "^4.0.0"
+    "cyclejs-test-helpers": "^4.0.0",
+    "jsverify": "^0.8.4"
   }
 }
