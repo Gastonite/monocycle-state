@@ -7,7 +7,7 @@
     "test": "ava -v --fail-fast  **/*.spec.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL",
   "peerDependencies": {
     "monocycle": "^1.0.1"
   },
