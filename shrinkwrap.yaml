@@ -5,7 +5,6 @@ dependencies:
   xstream: 11.7.0
 devDependencies:
   '@cycle/state': 1.1.0
-  '@f/is-functor': 1.0.0
   ava: 0.25.0
   cyclejs-test-helpers: 4.0.0
   jsverify: 0.8.4
@@ -101,11 +100,13 @@ packages:
     resolution:
       integrity: sha512-myC7fAy14JkRgCRnmRzrOrNcSalL1v/NriyseYVZgL9n9XVHU/oCoxJ2DAHpAKkMxm6GAkcHzuSrt0sa2EBhbQ==
   /@f/is-function/1.1.1:
+    dev: false
     resolution:
       integrity: sha1-F9NCpT730v95E3HC9Po4EkXOAjE=
   /@f/is-functor/1.0.0:
     dependencies:
       '@f/is-function': 1.1.1
+    dev: false
     resolution:
       integrity: sha1-AFLKpw8F16PVXkkuoDq5wFLbo/U=
   /@ladjs/time-require/0.1.4:
@@ -3790,7 +3791,6 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   '@cycle/state': ^1.0.0
-  '@f/is-functor': ^1.0.0
   ava: ^0.25.0
   cyclejs-test-helpers: ^4.0.0
   jsverify: ^0.8.4
