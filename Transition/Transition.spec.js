@@ -24,16 +24,16 @@ const { withTime } = require('cyclejs-test-helpers')
 
 
 const replaceAt = (index, replacement, string) => {
-  return string.substr(0, index) + replacement + string.substr(index + replacement.length);
+  return string.substr(0, index) + replacement + string.substr(index + replacement.length)
 }
 
 const generateLetter = (possibles = '', length = 1) => {
-  let text = "";
+  let text = ""
 
   for (var i = 0; i < length; i++)
-    text += possibles.charAt(Math.floor(Math.random() * possibles.length));
+    text += possibles.charAt(Math.floor(Math.random() * possibles.length))
 
-  return text;
+  return text
 }
 
 const DiagramArbitrary = pipe(

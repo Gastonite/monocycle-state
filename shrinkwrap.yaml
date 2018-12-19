@@ -1,6 +1,5 @@
 dependencies:
-  lodash: 4.17.11
-  monocycle: 'link:../../../.nvm/versions/node/v10.13.0/pnpm-global/node_modules/monocycle'
+  monocycle: github.com/gastonite/monocycle/30c3b135b46d0698bc2fb63d37dbf51fddbb6826
   ramda: 0.25.0
   ramda-adjunct: 2.13.0
   xstream: 11.7.0
@@ -65,7 +64,6 @@ packages:
     dependencies:
       '@cycle/run': 5.2.0
       xstream: 11.7.0
-    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
@@ -74,7 +72,6 @@ packages:
     dependencies:
       quicktask: 1.1.0
       xstream: 11.7.0
-    dev: true
     engines:
       node: '>=0.12.0'
     resolution:
@@ -104,13 +101,11 @@ packages:
     resolution:
       integrity: sha512-myC7fAy14JkRgCRnmRzrOrNcSalL1v/NriyseYVZgL9n9XVHU/oCoxJ2DAHpAKkMxm6GAkcHzuSrt0sa2EBhbQ==
   /@f/is-function/1.1.1:
-    dev: true
     resolution:
       integrity: sha1-F9NCpT730v95E3HC9Po4EkXOAjE=
   /@f/is-functor/1.0.0:
     dependencies:
       '@f/is-function': 1.1.1
-    dev: true
     resolution:
       integrity: sha1-AFLKpw8F16PVXkkuoDq5wFLbo/U=
   /@ladjs/time-require/0.1.4:
@@ -533,7 +528,7 @@ packages:
       babel-generator: 6.26.1
       babylon: 6.18.0
       call-matcher: 1.1.0
-      core-js: 2.6.0
+      core-js: 2.6.1
       espower-location-detector: 1.0.0
       espurify: 1.8.1
       estraverse: 4.2.0
@@ -639,7 +634,7 @@ packages:
     dependencies:
       babel-core: 6.26.3
       babel-runtime: 6.26.0
-      core-js: 2.6.0
+      core-js: 2.6.1
       home-or-tmp: 2.0.0
       lodash: 4.17.11
       mkdirp: 0.5.1
@@ -649,7 +644,7 @@ packages:
       integrity: sha1-btAhFz4vy0htestFxgCahW9kcHE=
   /babel-runtime/6.26.0:
     dependencies:
-      core-js: 2.6.0
+      core-js: 2.6.1
       regenerator-runtime: 0.11.1
     dev: true
     resolution:
@@ -768,6 +763,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w==
+  /browser-assert/1.2.1:
+    dev: false
+    resolution:
+      integrity: sha1-mqpaKox0aFwq4Fv+Ru/WBvBowgA=
   /buf-compare/1.0.1:
     dev: true
     engines:
@@ -812,7 +811,7 @@ packages:
       integrity: sha1-bb2y8g+Nj7znnz6U6dF0Lc31wKE=
   /call-matcher/1.1.0:
     dependencies:
-      core-js: 2.6.0
+      core-js: 2.6.1
       deep-equal: 1.0.1
       espurify: 1.8.1
       estraverse: 4.2.0
@@ -1072,10 +1071,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-+F4s+b/tKPdzzIs/pcW2m9wC/j8=
-  /core-js/2.6.0:
+  /core-js/2.6.1:
     dev: true
     resolution:
-      integrity: sha512-kLRC6ncVpuEW/1kwrOXYX6KQASCVtrh1gQr/UiaVgFlf9WE5Vp+lNe5+h3LuMr5PAucWnnEXwH0nQHRH/gpGtw==
+      integrity: sha512-L72mmmEayPJBejKIWe2pYtGis5r0tQ5NaJekdhyXgeMQTpJoBsH0NL4ElY2LfSoV15xeQWKQ+XTTOZdyero5Xg==
   /core-util-is/1.0.2:
     dev: true
     resolution:
@@ -1224,7 +1223,7 @@ packages:
   /empower-core/0.6.2:
     dependencies:
       call-signature: 0.0.2
-      core-js: 2.6.0
+      core-js: 2.6.1
     dev: true
     resolution:
       integrity: sha1-Wt71ZgiOMfuoC6CjbfR9cJQWkUQ=
@@ -1268,7 +1267,7 @@ packages:
       integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
   /espurify/1.8.1:
     dependencies:
-      core-js: 2.6.0
+      core-js: 2.6.1
     dev: true
     resolution:
       integrity: sha512-ZDko6eY/o+D/gHCWyHTU85mKDgYcS4FJj7S+YD6WIInm7GQ6AnOjmcL4+buFV/JOztVLELi/7MmuGU5NHta0Mg==
@@ -1472,7 +1471,7 @@ packages:
     bundledDependencies:
       - node-pre-gyp
     dependencies:
-      nan: 2.11.1
+      nan: 2.12.1
     dev: true
     engines:
       node: '>=0.8.0'
@@ -2266,6 +2265,7 @@ packages:
     resolution:
       integrity: sha1-o6F7v2LutiQPSRhG6XwcTipeHiE=
   /lodash/4.17.11:
+    dev: true
     resolution:
       integrity: sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
   /loose-envify/1.4.0:
@@ -2478,11 +2478,11 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-nHkGoi+0wCkZ4vX3UWG0zb1LKis=
-  /nan/2.11.1:
+  /nan/2.12.1:
     dev: true
     optional: true
     resolution:
-      integrity: sha512-iji6k87OSXa0CcrLl9z+ZiYSuR2o+c0bGuNmXdrhTQTakxytAFsC56SArGYoiHlJlFoHSnvmhpceZJaXkVuOtA==
+      integrity: sha512-JY7V6lRkStKcKTvHO5NVSQRv+RV+FIL5pvDoLiAtSL9pKlC5x9PKQcZDsq7m4FO4d57mkhC6Z+QhAh3Jdk5JFw==
   /nanomatch/1.2.13:
     dependencies:
       arr-diff: 4.0.0
@@ -2883,7 +2883,6 @@ packages:
     resolution:
       integrity: sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
   /quicktask/1.1.0:
-    dev: true
     resolution:
       integrity: sha512-b3w19IEXnt5auacLAbePVsqPyVQUwmuhJQrrWnVhm4pP8PAMg2U9vFHbAD9XYXXbMDjdLJs0x5NLqwTV8uFK4g==
   /raf/3.4.1:
@@ -2896,6 +2895,17 @@ packages:
     dev: false
     engines:
       node: '>=0.10.3'
+    peerDependencies:
+      ramda: '>= 0.19.0 <= 0.26.1'
+    resolution:
+      integrity: sha512-X6KgtqhrP//qHD3YNxlzUjPgP6istv9H1IuQw+l3FK2qns+ZM6VuOdicKcOkfmGaHc4xQOx1XxWJUJnb+3KSzQ==
+  /ramda-adjunct/2.13.0/ramda@0.25.0:
+    dependencies:
+      ramda: 0.25.0
+    dev: false
+    engines:
+      node: '>=0.10.3'
+    id: registry.npmjs.org/ramda-adjunct/2.13.0
     peerDependencies:
       ramda: '>= 0.19.0 <= 0.26.1'
     resolution:
@@ -3761,6 +3771,19 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+  github.com/gastonite/monocycle/30c3b135b46d0698bc2fb63d37dbf51fddbb6826:
+    dependencies:
+      '@cycle/isolate': 4.2.0
+      '@f/is-functor': 1.0.0
+      browser-assert: 1.2.1
+      ramda: 0.25.0
+      ramda-adjunct: /ramda-adjunct/2.13.0/ramda@0.25.0
+      xstream: 11.7.0
+    dev: false
+    name: monocycle
+    resolution:
+      tarball: 'https://codeload.github.com/gastonite/monocycle/tar.gz/30c3b135b46d0698bc2fb63d37dbf51fddbb6826'
+    version: 1.0.1
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
@@ -3770,7 +3793,6 @@ specifiers:
   ava: ^0.25.0
   cyclejs-test-helpers: ^4.0.0
   jsverify: ^0.8.4
-  lodash: ^4.17.11
   monocycle: 'github:gastonite/monocycle#dev'
   ramda: ^0.25.0
   ramda-adjunct: ^2.11.0
