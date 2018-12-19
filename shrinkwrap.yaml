@@ -1,6 +1,6 @@
 dependencies:
   lodash: 4.17.11
-  monocycle: github.com/gastonite/monocycle/69beb075940ddda1bcc1c019f09ccdf3f6cc943c
+  monocycle: 'link:../../../.nvm/versions/node/v10.13.0/pnpm-global/node_modules/monocycle'
   ramda: 0.25.0
   ramda-adjunct: 2.13.0
   xstream: 11.7.0
@@ -65,6 +65,7 @@ packages:
     dependencies:
       '@cycle/run': 5.2.0
       xstream: 11.7.0
+    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
@@ -73,6 +74,7 @@ packages:
     dependencies:
       quicktask: 1.1.0
       xstream: 11.7.0
+    dev: true
     engines:
       node: '>=0.12.0'
     resolution:
@@ -102,11 +104,13 @@ packages:
     resolution:
       integrity: sha512-myC7fAy14JkRgCRnmRzrOrNcSalL1v/NriyseYVZgL9n9XVHU/oCoxJ2DAHpAKkMxm6GAkcHzuSrt0sa2EBhbQ==
   /@f/is-function/1.1.1:
+    dev: true
     resolution:
       integrity: sha1-F9NCpT730v95E3HC9Po4EkXOAjE=
   /@f/is-functor/1.0.0:
     dependencies:
       '@f/is-function': 1.1.1
+    dev: true
     resolution:
       integrity: sha1-AFLKpw8F16PVXkkuoDq5wFLbo/U=
   /@ladjs/time-require/0.1.4:
@@ -764,10 +768,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w==
-  /browser-assert/1.2.1:
-    dev: false
-    resolution:
-      integrity: sha1-mqpaKox0aFwq4Fv+Ru/WBvBowgA=
   /buf-compare/1.0.1:
     dev: true
     engines:
@@ -1114,15 +1114,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-PPY5FIemYppiR+sMoM4ACBt+Nho=
-  /cycle-onionify/6.1.0:
-    dependencies:
-      '@cycle/isolate': 4.2.0
-      '@cycle/run': 5.2.0
-      quicktask: 1.1.0
-      xstream: 11.7.0
-    dev: false
-    resolution:
-      integrity: sha512-TIcvvh00ZBAmNgwJ3vswhcrY0NbytjIhOPxp0YUbvDaU1abZwh5V95pmXHCWueG6XhgnpqbibK0H2GGNjgrk4A==
   /cyclejs-test-helpers/4.0.0:
     dependencies:
       '@cycle/time': 0.19.0
@@ -1131,16 +1122,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7cSWlfRwxNFKHxh4F2mkpiAYQUp6LvGCdOl9lqfEVFEM1z02cVdp1DGczGcDhz4DoeP3mHub02k6nsxMDUIDxQ==
-  /cyclejs-utils/3.2.0/xstream@11.7.0:
-    dependencies:
-      cycle-onionify: 6.1.0
-      xstream: 11.7.0
-    dev: false
-    id: registry.npmjs.org/cyclejs-utils/3.2.0
-    peerDependencies:
-      xstream: '*'
-    resolution:
-      integrity: sha512-2+BmNsR5eCJixXVgLO2ilBBcC/iPLZES8ikmVCfFJCp8VPLOOPH6hsohrcB2q/cpxTBTTs4sWLlRRRIZNzCaHw==
   /date-time/0.1.1:
     dev: true
     engines:
@@ -2116,6 +2097,7 @@ packages:
       rc4: 0.1.5
       trampa: 1.0.1
       typify-parser: 1.1.0
+    dev: true
     engines:
       node: '>= 0.8.0'
     resolution:
@@ -2165,6 +2147,7 @@ packages:
     resolution:
       integrity: sha1-ogU4P+oyKzO1rjsYq+4NwvNW7hU=
   /lazy-seq/1.0.0:
+    dev: true
     engines:
       node: '>= 0.10.0'
     resolution:
@@ -2267,26 +2250,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-+wMJF/hqMTTlvJvsDWngAT3f7bI=
-  /lodash.isdate/4.0.1:
-    dev: false
-    resolution:
-      integrity: sha1-NaVDZzuddhEN5BFLMsxXcEin82Y=
   /lodash.isequal/4.5.0:
     dev: true
     resolution:
       integrity: sha1-QVxEePK8wwEgwizhDtMib30+GOA=
-  /lodash.iserror/3.1.1:
-    dev: false
-    resolution:
-      integrity: sha1-KXuaBfq2cUvCRE18wZ0dfES17Ow=
-  /lodash.isplainobject/4.0.6:
-    dev: false
-    resolution:
-      integrity: sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
-  /lodash.isregexp/4.0.1:
-    dev: false
-    resolution:
-      integrity: sha1-4T5kezDNVZdSoEzZEghvr32hwws=
   /lodash.merge/4.6.1:
     dev: true
     resolution:
@@ -2916,6 +2883,7 @@ packages:
     resolution:
       integrity: sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
   /quicktask/1.1.0:
+    dev: true
     resolution:
       integrity: sha512-b3w19IEXnt5auacLAbePVsqPyVQUwmuhJQrrWnVhm4pP8PAMg2U9vFHbAD9XYXXbMDjdLJs0x5NLqwTV8uFK4g==
   /raf/3.4.1:
@@ -2928,17 +2896,6 @@ packages:
     dev: false
     engines:
       node: '>=0.10.3'
-    peerDependencies:
-      ramda: '>= 0.19.0 <= 0.26.1'
-    resolution:
-      integrity: sha512-X6KgtqhrP//qHD3YNxlzUjPgP6istv9H1IuQw+l3FK2qns+ZM6VuOdicKcOkfmGaHc4xQOx1XxWJUJnb+3KSzQ==
-  /ramda-adjunct/2.13.0/ramda@0.25.0:
-    dependencies:
-      ramda: 0.25.0
-    dev: false
-    engines:
-      node: '>=0.10.3'
-    id: registry.npmjs.org/ramda-adjunct/2.13.0
     peerDependencies:
       ramda: '>= 0.19.0 <= 0.26.1'
     resolution:
@@ -2968,6 +2925,7 @@ packages:
     resolution:
       integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
   /rc4/0.1.5:
+    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
@@ -3189,66 +3147,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-QKNmnzsHfR6UPURinhV91IAjvy4=
-  /sanctuary-def/0.18.1:
-    dependencies:
-      sanctuary-either: 1.0.0
-      sanctuary-show: 1.0.0
-      sanctuary-type-classes: 9.0.0
-      sanctuary-type-identifiers: 2.0.1
-    dev: false
-    resolution:
-      integrity: sha512-Ltu/gU5ZskRln8NI6YJru5JbpkcMe4XqFx5zJMZysTKPmOVkETys5eVvZmclNLzPNrOIPvqBGJtD/D2q9yvP/A==
-  /sanctuary-either/1.0.0:
-    dependencies:
-      sanctuary-show: 1.0.0
-      sanctuary-type-classes: 9.0.0
-    dev: false
-    resolution:
-      integrity: sha512-j4WAlwILU83wawXJQCSh5kVK27gxOykMuCfUfUOba/qUcFE+FxwHkt7lnHVYDjt7jG9SENe8bTQzPH/Zmhy3Ag==
-  /sanctuary-maybe/1.0.0:
-    dependencies:
-      sanctuary-show: 1.0.0
-      sanctuary-type-classes: 9.0.0
-    dev: false
-    resolution:
-      integrity: sha512-4TUjIxznxTZ1dh8Zw4PRhaVkzY8KIZ4GGsOXBytOSV83MRRGkuz7wJHj3bfh2i9lOekbjf0Oal6v7IF6uDiYvg==
-  /sanctuary-pair/1.0.0:
-    dependencies:
-      sanctuary-show: 1.0.0
-      sanctuary-type-classes: 9.0.0
-    dev: false
-    resolution:
-      integrity: sha512-fqXCO6boMLW7ZHrjc573u5maNdytIrNxeaotBBGrvbEVqiNeA6VH4eGARMLTCRdgOtW94aF5EUkBZCzvXLSujQ==
-  /sanctuary-show/1.0.0:
-    dev: false
-    resolution:
-      integrity: sha512-63UqNGr5M6wkzKp6eGc/Gy6JBIV2PbzPd3q88+0F9z0qydAQsCWJ+7e4oor39rEEwj2GkZMDEhqGuiMl9eEnYw==
-  /sanctuary-type-classes/9.0.0:
-    dependencies:
-      sanctuary-type-identifiers: 1.0.0
-    dev: false
-    resolution:
-      integrity: sha512-rFW27f3D622kxKravpGU9OjWn66fnDjDjGPvoYo4hEoBg2ocypvp0R9cs0YovKL3jTO+PTceUBh5tYZ+l9ay3g==
-  /sanctuary-type-identifiers/1.0.0:
-    dev: false
-    resolution:
-      integrity: sha1-6PNZ8AbLXmJM+4RkYD/BFGCL3p8=
-  /sanctuary-type-identifiers/2.0.1:
-    dev: false
-    resolution:
-      integrity: sha1-/FJM9t2Szr/LsN2VCe/xkxWaIO0=
-  /sanctuary/0.15.0:
-    dependencies:
-      sanctuary-def: 0.18.1
-      sanctuary-either: 1.0.0
-      sanctuary-maybe: 1.0.0
-      sanctuary-pair: 1.0.0
-      sanctuary-show: 1.0.0
-      sanctuary-type-classes: 9.0.0
-      sanctuary-type-identifiers: 2.0.1
-    dev: false
-    resolution:
-      integrity: sha512-cyrFHazodEFlv6qVX/+qujO+jly2MXRMyNXR61jaqJG42JlCJnKpgQGvebYINaiRUbZ+P5Dr2Ai3Tg+vzNYCUw==
   /semver-diff/2.1.0:
     dependencies:
       semver: 5.6.0
@@ -3647,6 +3545,7 @@ packages:
     resolution:
       integrity: sha512-FWtleNAtZ/Ki2qtqej2CXTOayOH9bHDQF+Q48VpWyDXjbYxA4Yz8iDB31zXOBUlOHHKidDbqGVrTUvQMPmBGBw==
   /trampa/1.0.1:
+    dev: true
     resolution:
       integrity: sha512-93WeyHNuRggPEsfCe+yHxCgM2s6H3Q8Wmlt6b6ObJL8qc7eZlRaFjQxwTrB+zbvGtlDRnAkMoYYo3+2uH/fEwA==
   /trim-newlines/1.0.0:
@@ -3672,6 +3571,7 @@ packages:
     resolution:
       integrity: sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
   /typify-parser/1.1.0:
+    dev: true
     engines:
       node: '>= 0.10.0'
     resolution:
@@ -3861,26 +3761,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
-  github.com/gastonite/monocycle/69beb075940ddda1bcc1c019f09ccdf3f6cc943c:
-    dependencies:
-      '@cycle/isolate': 4.2.0
-      '@f/is-functor': 1.0.0
-      browser-assert: 1.2.1
-      cyclejs-utils: /cyclejs-utils/3.2.0/xstream@11.7.0
-      jsverify: 0.8.4
-      lodash.isdate: 4.0.1
-      lodash.iserror: 3.1.1
-      lodash.isplainobject: 4.0.6
-      lodash.isregexp: 4.0.1
-      ramda: 0.25.0
-      ramda-adjunct: /ramda-adjunct/2.13.0/ramda@0.25.0
-      sanctuary: 0.15.0
-      xstream: 11.7.0
-    dev: false
-    name: monocycle
-    resolution:
-      tarball: 'https://codeload.github.com/gastonite/monocycle/tar.gz/69beb075940ddda1bcc1c019f09ccdf3f6cc943c'
-    version: 1.0.1
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3

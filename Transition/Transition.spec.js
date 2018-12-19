@@ -14,8 +14,8 @@ const isNonEmptyString = require('ramda-adjunct/lib/isNonEmptyString').default
 const isInteger = require('ramda-adjunct/lib/isInteger').default
 const isNonNegative = require('ramda-adjunct/lib/isNonNegative').default
 const ensureArray = require('ramda-adjunct/lib/ensureArray').default
-const { WithReducer } = require('./Reducer')
-const { pipe } = require('monocycle/utilities/pipe')
+const { WithTransition } = require('./Transition')
+const pipe = require('ramda/src/pipe')
 const { ensurePlainObj } = require('monocycle/utilities/ensurePlainObj')
 const { diagramArbitrary } = require('cyclejs-test-helpers')
 const { isComponent } = require('monocycle/component')
@@ -84,9 +84,9 @@ const initStateMacro = (t, Spec) => {
   } = Spec(t)
 
   return withTime(Time => {
-    const withReducer = WithReducer(input)
+    const withTransition = WithTransition(input)
 
-    const component = withReducer()//?
+    const component = withTransition()//?
 
     t.true(isComponent(component))
 
@@ -139,10 +139,8 @@ const updateStateMacro = (t, options) => {
 
       const streamA = Time.diagram(a)
       const sources = { mySource: streamA }
-
-      const withReducer = WithReducer(input)
-
-      const component = withReducer()
+      const withTransition = WithTransition(input)
+      const component = withTransition()
 
       t.true(isComponent(component))
 
