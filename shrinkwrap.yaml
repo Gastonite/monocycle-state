@@ -1,5 +1,5 @@
 dependencies:
-  monocycle: github.com/gastonite/monocycle/30c3b135b46d0698bc2fb63d37dbf51fddbb6826
+  monocycle: github.com/gastonite/monocycle/3720c72691b28de7db4da84451e7e1bf9aa391cf
   ramda: 0.25.0
   ramda-adjunct: 2.13.0
   xstream: 11.7.0
@@ -3771,7 +3771,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
-  github.com/gastonite/monocycle/30c3b135b46d0698bc2fb63d37dbf51fddbb6826:
+  github.com/gastonite/monocycle/3720c72691b28de7db4da84451e7e1bf9aa391cf:
     dependencies:
       '@cycle/isolate': 4.2.0
       '@f/is-functor': 1.0.0
@@ -3782,7 +3782,8 @@ packages:
     dev: false
     name: monocycle
     resolution:
-      tarball: 'https://codeload.github.com/gastonite/monocycle/tar.gz/30c3b135b46d0698bc2fb63d37dbf51fddbb6826'
+      registry: 'https://registry.npmjs.org/'
+      tarball: 'https://codeload.github.com/gastonite/monocycle/tar.gz/3720c72691b28de7db4da84451e7e1bf9aa391cf'
     version: 1.0.1
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
